@@ -1,0 +1,39 @@
+<div class="container">
+	<div class="pull-left">
+		<form action="http://demo.opencart.com/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="currency">
+			<div class="btn-group">
+				<button class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+					<strong>$</strong> <span class="hidden-xs hidden-sm hidden-md">Currency</span> <i class="fa fa-caret-down"></i>
+				</button>
+				<ul class="dropdown-menu">
+					<li><button class="currency-select btn btn-link btn-block" type="button" name="EUR">€ Euro</button></li>
+					<li><button class="currency-select btn btn-link btn-block" type="button" name="GBP">£ Pound Sterling</button></li>
+					<li><button class="currency-select btn btn-link btn-block" type="button" name="USD">$ US Dollar</button></li>
+				</ul>
+			</div>
+			<input type="hidden" name="code" value="" /> <input type="hidden" name="redirect" value="http://demo.opencart.com/index.php?route=common/home" />
+		</form>
+	</div>
+	<div id="top-links" class="nav pull-right">
+		<ul class="list-inline">
+			<li><a href="http://demo.opencart.com/index.php?route=information/contact"> <i class="fa fa-phone"></i>
+			</a> <span class="hidden-xs hidden-sm hidden-md">123456789</span></li>
+			<li class="dropdown"><a href="http://demo.opencart.com/index.php?route=account/account" title="My Account" class="dropdown-toggle"
+				data-toggle="dropdown"> <i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">My Account</span> <span class="caret"></span>
+			</a>
+				<ul class="dropdown-menu dropdown-menu-right">
+					<li><a href="http://demo.opencart.com/index.php?route=account/register">Register</a></li>
+					<li><a href="http://demo.opencart.com/index.php?route=account/login">Login</a></li>
+				</ul></li>
+			<li><a href="http://demo.opencart.com/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (0)"> <i class="fa fa-heart"></i> <span
+					class="hidden-xs hidden-sm hidden-md">Wish List (0)</span>
+			</a></li>
+			<li><a href="http://demo.opencart.com/index.php?route=checkout/cart" title="Shopping Cart"> <i class="fa fa-shopping-cart"></i> <span
+					class="hidden-xs hidden-sm hidden-md">Shopping Cart</span>
+			</a></li>
+			<li><a href="http://demo.opencart.com/index.php?route=checkout/checkout" title="Checkout"> <i class="fa fa-share"></i> <span
+					class="hidden-xs hidden-sm hidden-md">Checkout</span>
+			</a></li>
+		</ul>
+	</div>
+</div>
