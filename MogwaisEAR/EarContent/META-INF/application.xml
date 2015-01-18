@@ -19,4 +19,10 @@
       <context-root>Smark</context-root>
     </web>
   </module>
+  <module>
+    <web>
+      <web-uri>Kundo.war</web-uri>
+      <context-root>Kundo</context-root>
+    </web>
+  </module>
 </application>

@@ -3,7 +3,6 @@
 	<name>Kundo</name>
 	<comment></comment>
 	<projects>
-		<project>MogwaisEAR</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
