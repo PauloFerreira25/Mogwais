@@ -9,34 +9,42 @@
 <h:head>
 	<title>Your Store</title>
 	<ui:insert name="head">
-		<ui:include src="head.xhtml" />
+		<ui:include src="/template/head.xhtml" />
 	</ui:insert>
 </h:head>
 <h:body class="common-home">
 	<nav id="top">
 		<ui:insert name="top">
-			<ui:include src="top.xhtml" />
+			<ui:include src="/template/top.xhtml" />
 		</ui:insert>
 	</nav>
 	<header>
 		<ui:insert name="header">
-			<ui:include src="header.xhtml" />
+			<ui:include src="/template/header.xhtml" />
 		</ui:insert>
 	</header>
 	<div class="container">
 		<nav id="menu" class="navbar">
 			<ui:insert name="navbar">
-				<ui:include src="navbar.xhtml" />
+				<ui:include src="/template/navbar.xhtml" />
 			</ui:insert>
 		</nav>
 	</div>
 	<div class="container">
-		<ui:insert name="content">
+		<ui:insert name="breadcrumb">
 		</ui:insert>
+		<div class="row">
+			<ui:insert name="content">
+			</ui:insert>
+			<ui:insert name="column-right">
+			</ui:insert>
+			<ui:insert name="body-js">
+			</ui:insert>
+		</div>
 	</div>
 	<footer>
 		<ui:insert name="footer">
-			<ui:include src="footer.xhtml" />
+			<ui:include src="/template/footer.xhtml" />
 		</ui:insert>
 	</footer>
 </h:body>
