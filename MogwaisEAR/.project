@@ -8,7 +8,6 @@
 		<project>Lugh</project>
 		<project>Smark</project>
 		<project>mogwaisJPA</project>
-		<project>MogwaisEJB</project>
 		<project>GenericUtilCommons</project>
 	</projects>
 	<buildSpec>

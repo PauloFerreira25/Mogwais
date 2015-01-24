@@ -20,10 +20,6 @@
         <dependent-module archiveName="mogwaisJPA.jar" deploy-path="/lib" handle="module:/resource/mogwaisJPA/mogwaisJPA">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="MogwaisEJB.jar" deploy-path="/" handle="module:/resource/MogwaisEJB/MogwaisEJB">
-            <dependent-object/>
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <dependent-module archiveName="GenericUtilCommons.jar" deploy-path="/lib" handle="module:/resource/GenericUtilCommons/GenericUtilCommons">
             <dependency-type>uses</dependency-type>
         </dependent-module>
