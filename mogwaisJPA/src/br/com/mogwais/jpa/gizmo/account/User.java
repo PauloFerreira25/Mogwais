@@ -28,6 +28,7 @@ public class User implements Serializable {
 	private String salt;
 
 	// Auth
+	
 	@Column(unique = true)
 	private String email;
 

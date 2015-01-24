@@ -25,4 +25,7 @@
       <context-root>Kundo</context-root>
     </web>
   </module>
+  <module>
+    <ejb>MogwaisEJB.jar</ejb>
+  </module>
 </application>
